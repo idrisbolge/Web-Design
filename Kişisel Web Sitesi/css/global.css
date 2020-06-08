@@ -1,0 +1,140 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+
+/* Colors */
+
+.bg-dark-color {
+    background: #062e51;
+}
+
+.bg-light-color {
+    background: #336ea2;
+}
+
+.cont {
+    width: 100%;
+}
+
+.bg-color {
+    background: #5A4DFD;
+}
+
+
+/*Buttons*/
+
+.butn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+
+.butn-primary {
+    background: #336ea2;
+}
+
+.butn-primary:hover {
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+}
+
+.butn-dark {
+    background: #333;
+}
+
+.butn-dark:hover {
+    color: #333;
+    background: #fff;
+    border: 0.5px solid #333;
+}
+
+.butn-block {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*
+DİVİDER İCON KISMI
+*/
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50 !important;
+}
+
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+}
+
+.divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-icon {
+    color: #2c3e50 !important;
+    font-size: 2rem;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #fff;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+    color: #fff !important;
+}
+
+
+/*
+Skill Section
+*/
+
+.section {
+    display: block;
+}
+
+.btncenter {
+    align-items: center;
+    justify-content: center;
+}

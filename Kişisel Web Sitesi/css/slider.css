@@ -1,0 +1,23 @@
+.col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.col-md-3 img {
+    width: 100%;
+    height: auto;
+}
+
+#projects .carousel-indicators li {
+    background-color: red;
+}
+
+#projects .carousel-control-prev-icon,
+#projects .carousel-control-next-icon {
+    background-color: red;
+}
+
+#projects .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
